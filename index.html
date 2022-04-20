@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="view report" content="width=device-width,initial-scale=1.0">
+     <title>this is my first webpage,</title>
+     <style>
+        .myDiv {
+            text-align: center;
+               color: rgba(245, 245, 245, 0.945);
+               border: 3px outset  rgba(181, 41, 143, 0.404);
+               background-color: rgb(18, 149, 44);
+               width: 1500px;
+               height: 80px;
+               font: optional;
+               font-size: 12px;
+           }
+           .video{
+               
+               text-align: right;
+               margin-left: 20px;
+           }
+           img {
+               border-radius: 50%;
+            }
+            #container
+            {
+                display:flex;
+                align-items: center;
+                background-color: aqua;
+            }
+            #container img{
+                margin-right: 20px;
+            }
+            table,th,td{
+                background-color: aqua;
+                height: 30px;
+                width: 1500px;
+                left: 50%;
+           }
+           .navbar
+           {
+            background-color: #333;
+            border-radius: 30px;
+           }
+           .navbar ul{
+               overflow: auto;
+           }
+           .navbar li{
+               float: left;
+               border-right: 1px solid rgb(42, 102, 42);
+               list-style: none;
+               margin: 13px 20px;
+               padding: top;
+               
+            }
+            .navbar li a{
+                display: block;
+                padding: 3px 3px;
+                text-decoration: none;
+                color: antiquewhite;
+                
+           }
+           .navbar li a:hover{
+               background-color: rgb(18, 149, 44);
+               color: red;
+           }
+           .search{
+               float: right;
+               color: antiquewhite;
+               padding: 12px 75px;
+           }
+           .navbar input{
+               border: 2px solid black ;
+               border-radius: 14px;
+               padding: 3px 4px;
+               width: 120px;
+           }
+	</style>
+	</head>
+	<body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">home
+                    </a>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li>
+                        <a href="#">
+                            Services
+                        </a>
+                    </li>
+                    <li><a href="#">
+                        contact us
+                    </a>
+                    </li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="myDiv">
+            <h1>Time-lapse drawing website</h1>
+             
+        </div>
+        <div class="video">
+            <video width="720" height="540" controls>
+                <source src="time lapse 2.mp4" tyoe="video/mp4">
+            </video>
+            <video width="720" height="540" controls>
+            <source src="time lapse1.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div id="container">
+       <img src="circle.jpg" alt="Avatar" style="width:200px">
+       <p>
+           mamidipaka srinivas
+           <br>
+           contact me to buy the Time-lapse drawing webpsite
+       </p>
+       </div>
+       <table>
+           <form>
+           <tr>
+               <th></th>
+               <th>
+               </th>
+               <th></th>
+           </tr>
+           <tr>
+            <tr>
+                <td colspan="2">
+            <h2>
+            ARE YOU WANA BUY? SUBMIT YOUR DETIALS.......
+            </h2>
+                </td>
+            </tr>
+           </tr>
+           <tr>
+               <td>
+                   <label for="fname">first name:</label>
+               </td>
+               <td>
+                   <input type="text" id="fname" name="fname">
+               </td>
+           </tr>
+               <tr>
+               <td>
+                   <label for="lname">last name:
+                   </label>
+               </td>
+               <td>
+                   <input type="text" id="lname" name="lname">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <label for="email">email
+
+                   </label>
+               </td>
+               <td>
+                   <input type="email" name="email" id="email">
+               </td>
+               <tr>
+                   <td>
+                       <label for="phone">phone
+
+                       </label>
+                   </td>
+                   <td>
+                       <input type="tel" name="phone" id="phone">
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       select the gender:
+                   </td>
+                   <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="rather not say" name="gender" value="rather not say">
+                    <label for="rather not say">Rather not say</label> 
+                   </td>
+               </tr>
+           </tr>
+           <tr>
+            <td>
+                <label for="ENTER THE AMOUNT">ENTER THE AMOUNT:</label>
+            </td>
+            <td>
+                <input type="text" id="ENTER THE AMOUNT" name="ENTER THE AMOUNT" placeholder="enter the amount">
+            </td>
+            </tr>
+           <tr>
+               <td>
+                   <input type="submit" value="submit now">
+               </td>
+                   <td>
+                       
+                       <input type="reset" value="Reset now">
+                   </td>
+           </tr>
+           </form>
+       </table>
+
+    </body>
+    </html>
